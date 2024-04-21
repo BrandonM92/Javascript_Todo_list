@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="application-container">
+        <section class="header">
+            <h2 class="title"> 
+                Things to do today, 
+                <input type="text" placeholder="Enter Your Name"> 
+            </h2>
+        </section>
+
+        <section class="create-todo">
+            <h3> New Todo Task</h3>
+            <form id="todo-form">
+                <h4>Tasks for Today:</h4>
+                <input type="text" name="content" 
+                id="content" 
+                placeholder="Go Grocery Shopping">
+                <h4>Category:</h4>
+                <div class="category">
+                    <label>
+                        <input type="radio" 
+                        name="category" 
+                        id="category-1" 
+                        value="work">
+                        <span class="bubble work"></span>
+                        <div>Work</div>
+                    </label>
+
+                    <label>
+                        <input type="radio" 
+                        name="category" 
+                        id="category-2" 
+                        value="personal">
+                        <span class="bubble personal"></span>
+                        <div>Personal</div>
+                    </label>
+
+                    <label>
+                        <input type="radio" 
+                        name="category" 
+                        id="category-3" 
+                        value="finance">
+                        <span class="bubble finance"></span>
+                        <div>Finance</div>
+                    </label>
+
+                    <label>
+                        <input type="radio" 
+                        name="category" 
+                        id="category-4" 
+                        value="school">
+                        <span class="bubble school"></span>
+                        <div>School</div>
+                    </label>
+                </div>
+            </form>
+        </section>
+
+
+
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
