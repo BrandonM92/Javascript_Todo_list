@@ -165,12 +165,12 @@ h4{
     font-size: 1.125rem;
 }
 
-.todo-item .action {
+.todo-item .actions {
     display: flex;
     align-items: center;
 }
 
-.todo-item .action button {
+.todo-item .actions button {
     display: block;
     padding:0.5rem;
     border-radius: 0.25rem;
@@ -179,16 +179,16 @@ h4{
     transition: 0.2s ease-in-out;
 }
 
-.todo-item .action button:hover{
+.todo-item .actions button:hover{
     opacity: 0.75;
 }
 
-.todo-item .action .edit{
+.todo-item .actions .edit{
     margin-right: 0.5rem;
     background-color: var(--primary);
 }
 
-.todo-item .action .delete{
+.todo-item .actions .delete{
     background-color: var(--danger);
 }
 
